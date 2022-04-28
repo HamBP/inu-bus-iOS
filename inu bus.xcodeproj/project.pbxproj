@@ -11,6 +11,8 @@
 		3003F0C5281964AB00BFB3BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3003F0C4281964AB00BFB3BF /* ContentView.swift */; };
 		3003F0C7281964AC00BFB3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003F0C6281964AC00BFB3BF /* Assets.xcassets */; };
 		3003F0CA281964AC00BFB3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003F0C9281964AC00BFB3BF /* Preview Assets.xcassets */; };
+		3065DFA6281A276000D437B7 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065DFA5281A276000D437B7 /* BusListView.swift */; };
+		3065DFA8281A444C00D437B7 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065DFA7281A444C00D437B7 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3003F0C4281964AB00BFB3BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3003F0C6281964AC00BFB3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3003F0C9281964AC00BFB3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3065DFA5281A276000D437B7 /* BusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListView.swift; sourceTree = "<group>"; };
+		3065DFA7281A444C00D437B7 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3003F0C4281964AB00BFB3BF /* ContentView.swift */,
 				3003F0C6281964AC00BFB3BF /* Assets.xcassets */,
 				3003F0C8281964AC00BFB3BF /* Preview Content */,
+				3065DFA5281A276000D437B7 /* BusListView.swift */,
+				3065DFA7281A444C00D437B7 /* FeedView.swift */,
 			);
 			path = "inu bus";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3065DFA8281A444C00D437B7 /* FeedView.swift in Sources */,
 				3003F0C5281964AB00BFB3BF /* ContentView.swift in Sources */,
 				3003F0C3281964AB00BFB3BF /* inu_busApp.swift in Sources */,
+				3065DFA6281A276000D437B7 /* BusListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
