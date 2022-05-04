@@ -11,9 +11,10 @@ struct BusListView: View {
     var content: String = "test"
     
     var body: some View {
-        List {
-            Text("111")
-            Text("222")
+        VStack {
+            FeedView()
+            FeedView()
+            FeedView()
         }
     }
 }

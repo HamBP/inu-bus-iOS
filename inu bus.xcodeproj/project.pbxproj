@@ -55,6 +55,7 @@
 		3003F0C1281964AB00BFB3BF /* inu bus */ = {
 			isa = PBXGroup;
 			children = (
+				3065DFA9281A474400D437B7 /* test */,
 				3003F0C2281964AB00BFB3BF /* inu_busApp.swift */,
 				3003F0C4281964AB00BFB3BF /* ContentView.swift */,
 				3003F0C6281964AC00BFB3BF /* Assets.xcassets */,
@@ -71,6 +72,13 @@
 				3003F0C9281964AC00BFB3BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3065DFA9281A474400D437B7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
