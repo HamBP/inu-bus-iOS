@@ -12,7 +12,7 @@ struct FeedView: View {
     
     var body: some View {
         VStack (alignment: .leading) {
-            firstLine().padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0))
+            firstLine(busNumber: 16).padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0))
             secondLine().padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0))
             Divider()
         }
@@ -20,9 +20,11 @@ struct FeedView: View {
 }
 
 struct firstLine: View {
+    var busNumber: Int
+    
     var body: some View {
         HStack(spacing: 8) {
-            BusNumberView()
+            BusNumberView(busNumber: busNumber)
             VStack(alignment: .leading) {
                 Text("버스가 5분 뒤 출발해요")
                 Text("인천대입구 2번출구")
@@ -32,8 +34,9 @@ struct firstLine: View {
 }
 
 struct BusNumberView: View {
+    var busNumber: Int
     var body: some View {
-        Text("8")
+        Text(String(busNumber))
             .frame(width: 36, height: 36)
             .foregroundColor(Color.white)
             .background(Color.purple)

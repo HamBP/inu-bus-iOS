@@ -12,8 +12,17 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
-            BusListView(content: "test2").tabItem { Text("인천대입구") }.tag(1)
-            BusListView().tabItem { Text("지식정보단지") }.tag(2)
+            BusListView(content: "INU")
+                .tabItem {
+                    Image(systemName: "square")
+                    Text("인천대입구")
+            }
+            BusListView(content: "BIT")
+                .tabItem {
+                    Image(systemName: "square")
+                    Text("지식정보단지")
+                
+            }
         }
     }
 }

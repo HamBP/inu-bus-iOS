@@ -15,6 +15,7 @@ struct BusListView: View {
             FeedView()
             FeedView()
             FeedView()
+            Spacer()
         }
     }
 }
